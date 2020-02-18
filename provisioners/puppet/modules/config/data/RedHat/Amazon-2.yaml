@@ -11,6 +11,7 @@ config::package_manager_packages:
   - name: ruby_aem_aws
     version: 1.4.1
     provider: puppet_gem
+    source: https://rubygems.pkg.github.com/odysseas
   - name: inspec
     version: 1.51.6
     provider: puppet_gem
